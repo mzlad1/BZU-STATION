@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Courses - BZU-STATION</title>
+    <link rel="shortcut icon" type="image" href="assets/img/bzu-station.png" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Akaya+Kanadaka&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+Arabic&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="./index">BZU - STATION</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Courses"
+                >المواد</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./programs">برامج</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sites">مواقع مفيدة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact-us">أضف ملف</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="page" style="background-image: url(assets/img/tech/bg.png)">
+      <section class="clean-block features">
+        <div class="container">
+          <div class="block-heading">
+            <!-- row for title and searh input-->
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="text-info" style="color: #0d6efd">
+                  Courses - المواد
+                </h2>
+              </div>
+              <div class="col-md-6">
+                <div class="search-form">
+                  <input
+                    id="myFilter"
+                    onkeyup="myFunction()"
+                    type="text"
+                    name="search"
+                    placeholder="ابحث عن مساق"
+                    style="border-color: #0d6efd; border-radius: 15px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="cards" id="cards">
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/java.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">JAVA - COMP231</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1I0ZINpDYBTsgJZEy8DTVb1-K_I_8qtt_?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/java.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">JAVA 1 - COMP1331</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/12iBPpyg5Nfcmy9Pk8etQqebKOE6cV_RL"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/dsa.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Data Structure - COMP242</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1SVrYPgEIiS_b6-7FMnrRJ9BfMFZ3-epD"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/linux.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Linux - COMP311</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1Qo9PaISbpsWwlMMsiekDN5EuzVUkpBAv"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/db.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Data Base - COMP333</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/u/0/folders/1oJ-38Kpk-DzDG9X-ROwdCvcEyf0NHoG-"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/ds.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Discrete Mathematics - COMP233</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1Z_lwAXJPbpHc0CV94ZQBt_FScMThq5gR?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/digital.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Digital - ENCS2340</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1m70C9HlrVIjsFBKtd9GfQQREBItZcVx2?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/num.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Numerical - MATH330</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1FCGOsXzTL-svRFeSzAB1W8qEGHQ23Ee1?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/stat.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Statistics - STAT2311</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1MAt1JAsbj6lmlbe0LSNbbwfAR6qwgzWu?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/lin.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Linear - MATH234</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1UX3YnIGDPcofF4sPCGsePEazjKWsTapu?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/dlab.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Digital Lab - ENCS211</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1C9jg7QEgL7tWx_8p4xbtbCUO8bcFw56u?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/csara.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">سي اس عربية - CULS332</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1xK5RcCSVfue-7fQ2Y1pw_-TFowz18lPm?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/cseu.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">سي اس اوروبية - CULS331</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1EkKr3gap85VIzWU9eUDTXDQ89Rsm58FN?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/algo.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">ALGORITHMS - COMP336</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1liBCzjACpysGVH8Wm6XVTLDVNorBPdTE?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/clan.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">الحاسوب والبرمجة ( سي )- COMP133</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1SLByqfe2dFm9HlQ2GYPlImdG9tNTh7ub?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/phy.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Physics lab 2 - PHYS112</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1e5IjH5TIZCvX7WFH8PlIfWSz7aSyBzpA?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/bio.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Biology lab - BIOL111</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1gI8JTyw_Ifsgt6WwJJplJD7F-VQlCQu5?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/phy.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Physics lab 1 - PHYS111</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1EIw_hAP8w3yyfwLFDRFoLvLPn5Zg83Ot?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/calc.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Calculus 1 - MATH1411</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1qI8C2AniWnWIozqyzjYdBW21Xb4RDFV7?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/calc.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Calculus 2 - MATH1321</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1eOHE3No_DJzi9oq7ocUGbHHgTA9mg2Vu?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/phy.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">GENERAL PHYSICS 1 - PHYS141</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/130s3XbDRSYwk4Dq_sYcOkHC7LZtVobxJ?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/phy.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">GENERAL PHYSICS 2 - PHYS132</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1iRVouJAj-La69WfaVWAKUZblahAFpucu?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/english.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">English B1 - ENGC2201 , ENGC2202</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1-eQGguKEY4WjVpU5y5Oni8VEwdv_Q_08?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/english.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">English B2 - ENGC2204 , ENGC2203</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1eq-vmREdPLEINrDVZaG85zb531dLv2Qx?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/bio.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">GENERAL BIOLOGY - BIOL131</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1-ndGfdXLBv7YTtlUdWQCe6ey7Ex0HdHO?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/orga.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    ENCS336 - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE - ORGA
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1aB_aa5pAacZNRjuw6lD0FpuzGKeAW6EW?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/web.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    COMP334 - WEB APPLICATION AND TECHNOLOGY
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1u0Ebxk9Trd4iYGBRwzH6SF1Y0_zKx2lL?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/ai.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP338 - ARTIFICIAL INTELLIGENCE</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1thcRvwgyzeDD13InAIo2mjTSPyx24z5L?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/soft.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP433 - SOFTWARE ENGINEERING</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1103EHMXNSmlrb03RTUi41qEyDbQCEcrX?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/os.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP431 - OPERATING SYSTEMS</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/14IihU51lp_NyQe_oQI72EcLdNxmlSS36?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/computer_network.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    ENCS433 - COMMUNICATION AND COMPUTER NETWORKS
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1iWteo8je8CmZkPXVeM_0WklL0PijQCFj?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/tran.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    COMP439 - TRANSLATORS AND PROGRAMMING LANGUAGES
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1WMlLXMx95IRnkkOT5xI3wIHbPFHw2j2Y?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/secu.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP432 - COMPUTER SECURITY</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1emCBWEHz2JucRUXhx7EyL_xKHpYgY0ys?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/hcl.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    COMP322 - Human Computer Interaction - HCI
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1_9cOs1MPNz0QFhWXfqe5LQLLAofbGTVp?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/bi.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP438 - BUSINESS INTELLIGENCE</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1Kc0vkS_QkOMhyqMXs3NWupRD40kCbbA-?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/mpApp.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    COMP438 - Mobile Application Development
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1Wku2E7zVouC2V-AhJg0j5_CA3E47pL2p?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/sg.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    COMP2331 - SERIOUS GAMING (SG) FUNDAMENTALS
+                  </h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1MVnBSbNEGQJkvVt7dK5efUt0u2AQP--V?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/mbgame.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP2351 - MOBILE GAME PROGRAMMING</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1ily5LDMEYpNG1jjVEWQp39qbZySeTFan?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/webser.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP4382 - WEB SERVICES TECHNOLOGY</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1WWkEsJzzZW43yafRLvdKJSB5vmflIJux?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/mach.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">COMP4388 - MACHINE LEARNING</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1UunPbpFSwl1p8MUd8Wni7xKqEYdbZZU-?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/hel.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">HEALTH INFORMATICS</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1dZ6HbB5SUpojzAmguIceiN0hXFX0IoM-?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card__image"
+                  src="assets/img/computer_network.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">ENCS3320 - Computer Networks</h5>
+
+                  <a
+                    href="https://drive.google.com/drive/folders/1h2qS65Z8WPubkHkYDd6-YOPZ4beLHgVp?usp=sharing"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Open</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; bzu.supp@gmail.com
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/searchCourse.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
